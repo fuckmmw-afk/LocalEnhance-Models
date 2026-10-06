@@ -8,14 +8,26 @@
       "version": "1.0.0",
       "type": "coremlPackageZipStored",
       "url": "https://github.com/fuckmmw-afk/LocalEnhance-Models/releases/download/models-v1/source-faithful-sr-x2.mlpackage.zip",
-      "sha256": "7d5845ff216537b8345510ba8fbeebe3d27dad14f5dd4a29331b1878b89b9ce6",
+      "sha256": "0f8cb2e436667645670c1462fe85a1860fe9250b09a2fce1eade1951b4efd33e",
       "size": 34085612,
       "required": false,
-      "requiredForStages": ["superResolution"],
+      "requiredForStages": [
+        "superResolution"
+      ],
       "license": "BSD-3-Clause",
       "source": "https://github.com/xinntao/Real-ESRGAN",
-      "inputShape": [1, 3, 32, 32],
-      "outputShape": [1, 3, 128, 128],
+      "inputShape": [
+        1,
+        3,
+        32,
+        32
+      ],
+      "outputShape": [
+        1,
+        3,
+        128,
+        128
+      ],
       "nativeScale": 4,
       "renderScale": 2,
       "inputFeature": "image",
@@ -28,14 +40,26 @@
       "version": "2.1.0",
       "type": "coremlPackageZipStored",
       "url": "https://github.com/fuckmmw-afk/LocalEnhance-Models/releases/download/models-v1/monocular-depth.mlpackage.zip",
-      "sha256": "09d553a0059fc5754cb167ef4e1e86bcfd7f441a5f9aee47b0f068d048b6c80a",
+      "sha256": "6e74c590efe8da15db14dcd64ddfd417164e6536b27b2a0b57f9b82241de54e5",
       "size": 33304099,
       "required": false,
-      "requiredForStages": ["depthEstimation", "depthOfField"],
+      "requiredForStages": [
+        "depthEstimation",
+        "depthOfField"
+      ],
       "license": "MIT",
       "source": "https://github.com/isl-org/MiDaS",
-      "inputShape": [1, 3, 256, 256],
-      "outputShape": [1, 256, 256],
+      "inputShape": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "outputShape": [
+        1,
+        256,
+        256
+      ],
       "inputFeature": "image",
       "outputFeature": "depth"
     }
